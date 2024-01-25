@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 
 :root {
     --color-background-header: #272420;
@@ -18,8 +17,7 @@
 }
 
 body {
-    background-color: black;
-    color: white;
+    background-color: #000;
     font-family: var(--font-body-page);
     font-size: var(--font-size-body-page);
     height: 100vh;
@@ -28,7 +26,6 @@ body {
 .header {
     font-size: var(--font-header-footer);
     background-color: var(--color-background-footer-color-title-header);
-    border: 2px solid greenyellow;
     display: flex;
     justify-content: center;
     height: 5rem;
@@ -59,7 +56,6 @@ body {
     display: flex;
     align-items: center;
     margin: 2rem 2rem 2rem;
-    /* width: 100%; */
 }
 
 .presentation__content {
@@ -127,7 +123,6 @@ body {
     .header {
         font-size: var(--font-header-footer);
         background-color: var(--color-background-footer-color-title-header);
-        border: 2px solid greenyellow;
         display: flex;
         justify-content: center;
         height: 3rem;
