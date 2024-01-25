@@ -8,6 +8,7 @@
     --font-body-page: "Montserrat", sans-serif;
     --font-size-header-footer: 1.5rem;
     --font-size-body-page: 2rem;
+    --font-color-page: #fff;
 }
 
 * {
@@ -65,8 +66,13 @@ body {
     width: 50%;
 }
 
+.presentation__content__title {
+    color: var(--font-color-page);
+}
+
 .presentation__content__paragraph {
     font-size: var(--font-size-body-page);
+    color: var(--font-color-page);
 }
 
 .mark__title {
